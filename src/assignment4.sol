@@ -128,10 +128,3 @@ contract multiSignatureWallet {
     }
 }
 
-//tbh i needed a lot of help writing this contract, but i understood the mechanics and
-//logic.
-//i dont think i can write test scripts for this :-(
-//i am learning solidity and loving it so far, i will keep learning and try to become
-//better day by day, hope i make it into supra :-)
-//thank you for your patience and would love to hear improvements in the code.
-//thank you
