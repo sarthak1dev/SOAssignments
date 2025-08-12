@@ -2,10 +2,6 @@
 pragma solidity ^0.8.13;
 import "forge-std/console.sol";
 
-//note to the reader,after the contract is deployed, even tho proprer errors are mentioned,in the vote function, the "revert
-// 	The transaction has been reverted to the initial state.
-// Note: The called function should be payable if you send value and the value you send should be less than your current balance.
-// Debug the transaction to get more information." error shows up, i do not know what to do with it, would love to talk to the devs at supraoracles.
 contract voting {
     mapping(string => uint) public candidates; //to maintain the key value pair of candidates and their votes
     mapping(address => uint) public voters; //list to verify if the person is registered with the help of array
