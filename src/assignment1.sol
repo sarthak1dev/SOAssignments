@@ -42,7 +42,7 @@ contract samToken is ERC20 {
         }
     }
 
-    function refund() public {
+    function refund() public payable {
         if (
             currentRaise < maxPresaleRaise && currentRaise < maxTotalRaise //if the rounds are not finishedthen refund
         ) {
